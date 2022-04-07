@@ -1,0 +1,26 @@
+* {
+    font-family: helvetica;
+    color: white;
+}
+
+body{
+    background-image: url("images/baseball-background.jpg");
+    background-size: cover;
+}
+
+/* main section*/
+.name h1{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.name h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
