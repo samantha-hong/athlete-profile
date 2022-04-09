@@ -20,7 +20,37 @@ body{
     text-align: center;
 }
 
-.about{
+.info{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.main img{
+    width: 30%;
+    height: auto;
+    margin: 20px;
+}
+
+.about {
+    width: 20%;
+    height: auto;
+}
+
+.about h3{
+    font-size: 25px;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+/*media section*/
+.media {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.media h3{
+    
+}
+
