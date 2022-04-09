@@ -32,7 +32,6 @@ body{
 .main img{
     max-height: 50%;
     width: auto;
-    object-fit: contain;
 }
 
 .about {
@@ -72,13 +71,7 @@ body{
     max-height: 315px;
     width: auto;
     margin-bottom: 30px;
-    object-fit: contain;
 }
-
-.media iframe{
-    object-fit: contain;
-}
-
 /*contact section*/
 .contact{
     text-align: center;
