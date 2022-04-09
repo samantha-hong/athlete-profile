@@ -30,12 +30,12 @@ body{
 }
 
 .main img{
-    max-height: 50%;
-    width: auto;
+    width: 30vh;
+    height: auto;
 }
 
 .about {
-    max-width: 20%;
+    width: 30vh;
     height: auto;
     padding-right: 40px;
 }
@@ -46,6 +46,12 @@ body{
 
 .about p{
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        flex-wrap: wrap;
+    }
 }
 
 /*media section*/
@@ -61,16 +67,29 @@ body{
     color: black;
 }
 
+.pics img{
+    width: 40vh;
+    height: auto; 
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+iframe{
+    margin-bottom: 30px;
+}
+
 .pics{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
 }
 
-.media img{
-    max-height: 315px;
-    width: auto;
-    margin-bottom: 30px;
+@media only screen and (max-width: 1200px){
+    .pics{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 /*contact section*/
 .contact{
