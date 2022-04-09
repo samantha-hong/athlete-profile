@@ -66,13 +66,17 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    object-fit: contain;
 }
 
 .media img{
     max-height: 315px;
     width: auto;
     margin-bottom: 30px;
+    object-fit: contain;
+}
+
+.media iframe{
+    object-fit: contain;
 }
 
 /*contact section*/
