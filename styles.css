@@ -27,8 +27,8 @@ body{
 }
 
 .main img{
-    width: auto;
     height: 50%;
+    width: auto;
     margin: 20px;
     object-fit: contain;
 }
