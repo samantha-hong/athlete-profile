@@ -30,6 +30,7 @@ body{
     width: 30%;
     height: auto;
     margin: 20px;
+    object-fit: contain;
 }
 
 .about {
@@ -60,6 +61,8 @@ body{
 .pics{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    object-fit: contain;
 }
 
 .media img{
