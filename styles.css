@@ -76,6 +76,8 @@ body{
 
 iframe{
     margin-bottom: 30px;
+    width: 40vh;
+    height: auto
 }
 
 .pics{
